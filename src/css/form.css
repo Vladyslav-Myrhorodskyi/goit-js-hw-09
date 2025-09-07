@@ -51,17 +51,19 @@
 .btn-submit {
     border-radius: 8px;
     padding: 8px 16px;
-    width: 95px;
+    width: 86px;
     height: 40px;
     background: #4e75ff;
     transition: background-color 0.3s ease, transform 0.1s ease;
-    font-family: var(--font-family);
+    font-family: "Montserrat",
+        sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
     margin-top: 8px;
+    border: none;
 }
 
 .btn-submit:hover {
