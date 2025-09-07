@@ -1,0 +1,37 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    max-width: 1128px;
+    /* height: 696px; */
+    background: #fff;
+    margin: 0 auto;
+    padding: 24px 156px;
+}
+
+.gallery-image {
+    display: block;
+    object-fit: cover;
+    width: 340px;
+    height: 200px;
+    border: none;
+    outline: none;
+}
+
+.sl-overlay {
+    background: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-close {
+    color: #fff;
+}
+
+.sl-wrapper .sl-counter {
+    color: #fff;
+}
+
+.sl-wrapper .sl-navigation button {
+    color: #fff;
+}

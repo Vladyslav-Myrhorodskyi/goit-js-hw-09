@@ -1,0 +1,79 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    gap: 8px;
+}
+
+.input-email,
+.input-message {
+    padding: 8px 16px;
+    box-sizing: border-box;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit;
+}
+
+.input-message {
+    height: 80px;
+}
+
+.input-email,
+.input-message:hover {
+    border: 1px solid #000;
+}
+
+.btn-submit {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background: #4e75ff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.btn-submit:hover {
+    background: #6c8cff;
+}
+
+.btn-submit:active {
+    background: #6c8cff;
+    transform: scale(0.98);
+}
+
+.btn-submit:focus {
+    outline: none;
+    background: #4e75ff;
+}
